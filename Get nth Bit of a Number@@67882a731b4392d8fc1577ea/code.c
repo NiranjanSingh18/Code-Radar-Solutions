@@ -7,6 +7,6 @@ int main() {
     scanf("%d", &num);
     scanf("%d", &n);
     int bit = getNthBit(num, n);
-    printf("%d", n, num, bit);
+    printf("%d", num, n, bit);
     return 0;
 }
