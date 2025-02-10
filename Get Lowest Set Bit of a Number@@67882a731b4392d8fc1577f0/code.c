@@ -1,33 +1,11 @@
 #include <stdio.h>
-
 int main() {
-
-int num;
-
-scanf("%d", &num);
-
-if (num==0) {
-
-printf("0");
-
-} else{
-
-int started = 0;
-
-for (int i = 31; i≥ 0; i--){
-
-int bit = (num >> i)&1;
-
-if (bit || started) {
-
-printf("%d", bit);
-
-started = 1;
-
+int n, position = 0;
+scanf("%d",&n);
+while (!(n&1)) {
+position++;
+n >>= 1;
 }
-
+printf("%d\n", position);
+return 0;
 }
-
-}
-
-return 0;}
