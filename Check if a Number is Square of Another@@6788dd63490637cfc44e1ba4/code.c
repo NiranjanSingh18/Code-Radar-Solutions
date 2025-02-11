@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 int main() {
-    int a, b;
+    int a, b,w;
     scanf("%d %d", &a, &b);
-    
-    if (b == pow(a,2))
+    w=pow(a,2);
+    if (b == w)
         printf("Yes");
     else 
         printf("No");
