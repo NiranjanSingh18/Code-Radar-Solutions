@@ -3,9 +3,11 @@
 int main() {
     int a, b;
     scanf("%d %d", &a, &b);
+    
     if (sqrt(b) == a) 
-        printf("Yes");
+        printf("Yes\n");
     else 
-        printf("No");
+        printf("No\n");
+
     return 0;
 }
