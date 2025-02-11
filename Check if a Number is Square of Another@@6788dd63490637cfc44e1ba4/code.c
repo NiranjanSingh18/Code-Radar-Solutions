@@ -4,7 +4,7 @@ int main() {
     int a, b;
     scanf("%d %d", &a, &b);
     
-    if (sqrt(b) == a) 
+    if (b == pow(a,2))
         printf("Yes");
     else 
         printf("No");
