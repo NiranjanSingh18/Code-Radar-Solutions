@@ -5,9 +5,9 @@ int main() {
     scanf("%d %d", &a, &b);
     
     if (sqrt(b) == a) 
-        printf("Yes\n");
+        printf("Yes");
     else 
-        printf("No\n");
+        printf("No");
 
     return 0;
 }
